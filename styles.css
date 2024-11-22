@@ -30,7 +30,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    background-color: dodgerblue;
+    background-color: #4cb4a2;
     color: white;
     text-align: center;
     padding: 100px 20px;
@@ -61,19 +61,24 @@ header nav ul li a:hover {
     background-color: #f1f1f1;
 }
 
-.about h2 {
+h3 {
+    font-size: 2.5rem;
+}
+
+h2 {
     font-size: 3rem;
 }
 
-.about p {
+p {
     font-size: 1.5rem;
-    color: #555;
+    color: #423e67;
 }
 
 /* Skills Sections */
 .skills {
     padding: 50px 20px;
     text-align: center;
+    background-color: rgb(83, 201, 183);
 }
 
 .skills h2 {
@@ -89,7 +94,7 @@ header nav ul li a:hover {
 
 .skill-item {
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #2ba599;
     border-radius: 10px;
     width: 25%;
 }
@@ -113,11 +118,67 @@ header nav ul li a:hover {
 
 .project-item {
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #a1f4e3;
     border-radius: 10px;
     width: 25%;
 }
 
 .project-item img {
     width: 100%;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #527785;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact p {
+    color: #41beb1;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact-item {
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact-item a {
+    color: #438181;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+    color: #c5d4d4;
+}
+
+.contact-form {
+    width: 45%;
+    background-color: ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
 }
